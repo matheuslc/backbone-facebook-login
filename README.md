@@ -39,6 +39,11 @@ fbLogin.login({
 }));
 ```
 
+So, you can access login status
+```javascript
+fbLogin.get('loginStatus');
+```
+
 ## How to get user data
 
 With your SDK initialized (step above)
@@ -47,6 +52,13 @@ With your SDK initialized (step above)
 fbLogin.getUserData('/me', 'user'); // User is the name that will appear in the object
 
 fbLogin.getUserData('/me/picture', 'image', {width: 320; height: 320}); // A third parameter can be passed (Graph API options)
+```
+
+So, you can access data (If the request have a error, nothing will be stored)
+
+```javascript
+fbLogin.get('user');
+fbLogin.get('picture');
 ```
 
 ## How to logout
