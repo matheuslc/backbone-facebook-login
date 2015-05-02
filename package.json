@@ -1,0 +1,30 @@
+{
+  "name": "backbone-facebook-login",
+  "version": "0.0.1",
+  "description": "A small backbone.js helper to make login with Facebook API",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matheuslc/backbone-facebook-login.git"
+  },
+  "keywords": [
+    "backbone",
+    "facebook",
+    "login"
+  ],
+  "author": "Matheus Lucca do Carmo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheuslc/backbone-facebook-login/issues"
+  },
+  "homepage": "https://github.com/matheuslc/backbone-facebook-login",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.10.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  }
+}
