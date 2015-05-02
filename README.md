@@ -2,6 +2,7 @@
 
 A small backbone.js helper to make login with Facebook API.
 
+[![Build Status](https://travis-ci.org/matheuslc/backbone-facebook-login.svg)](https://travis-ci.org/matheuslc/backbone-facebook-login)
 
 ## Dependencies
 
@@ -33,17 +34,6 @@ fbLogin.login(); // Make user login request
 
 With scope
 ```javascript
-var FBLogin = require('backbone-facebook-login') // Can be AMD or Browser-in too
-
-var fbLogin = new FBLogin({
-		credentials: {
-			appId: 'xxxx' // Your Facebook App Id
-		}
-	}
-});
-
-fbLogin.init(); // Initialize the SDK
-
 fbLogin.login({
 	scope: 'public_profile, email, user_education_history'
 }));
