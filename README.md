@@ -24,8 +24,7 @@ var fbLogin = new FBLogin({
 		credentials: {
 			appId: 'xxxx' // Your Facebook App Id
 		}
-	}
-});
+	});
 
 fbLogin.init(); // Initialize the SDK
 
